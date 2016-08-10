@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBF67E8A1D5AA644005989C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF67E891D5AA644005989C4 /* AppDelegate.swift */; };
+		CBF67E8C1D5AA644005989C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF67E8B1D5AA644005989C4 /* ViewController.swift */; };
+		CBF67E8F1D5AA644005989C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF67E8D1D5AA644005989C4 /* Main.storyboard */; };
+		CBF67E921D5AA644005989C4 /* ThinkMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBF67E901D5AA644005989C4 /* ThinkMe.xcdatamodeld */; };
+		CBF67E941D5AA644005989C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF67E931D5AA644005989C4 /* Assets.xcassets */; };
+		CBF67E971D5AA644005989C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF67E951D5AA644005989C4 /* LaunchScreen.storyboard */; };
+		CBF67EA21D5AA645005989C4 /* ThinkMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF67EA11D5AA645005989C4 /* ThinkMeTests.swift */; };
+		CBF67EAD1D5AA645005989C4 /* ThinkMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF67EAC1D5AA645005989C4 /* ThinkMeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBF67E9E1D5AA645005989C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF67E7E1D5AA644005989C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF67E851D5AA644005989C4;
+			remoteInfo = ThinkMe;
+		};
+		CBF67EA91D5AA645005989C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF67E7E1D5AA644005989C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF67E851D5AA644005989C4;
+			remoteInfo = ThinkMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBF67E861D5AA644005989C4 /* ThinkMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF67E891D5AA644005989C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBF67E8B1D5AA644005989C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBF67E8E1D5AA644005989C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBF67E911D5AA644005989C4 /* ThinkMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThinkMe.xcdatamodel; sourceTree = "<group>"; };
+		CBF67E931D5AA644005989C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBF67E961D5AA644005989C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBF67E981D5AA644005989C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF67E9D1D5AA645005989C4 /* ThinkMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF67EA11D5AA645005989C4 /* ThinkMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkMeTests.swift; sourceTree = "<group>"; };
+		CBF67EA31D5AA645005989C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF67EA81D5AA645005989C4 /* ThinkMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF67EAC1D5AA645005989C4 /* ThinkMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkMeUITests.swift; sourceTree = "<group>"; };
+		CBF67EAE1D5AA645005989C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBF67E831D5AA644005989C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF67E9A1D5AA645005989C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF67EA51D5AA645005989C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBF67E7D1D5AA644005989C4 = {
+			isa = PBXGroup;
+			children = (
+				CBF67E881D5AA644005989C4 /* ThinkMe */,
+				CBF67EA01D5AA645005989C4 /* ThinkMeTests */,
+				CBF67EAB1D5AA645005989C4 /* ThinkMeUITests */,
+				CBF67E871D5AA644005989C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBF67E871D5AA644005989C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBF67E861D5AA644005989C4 /* ThinkMe.app */,
+				CBF67E9D1D5AA645005989C4 /* ThinkMeTests.xctest */,
+				CBF67EA81D5AA645005989C4 /* ThinkMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBF67E881D5AA644005989C4 /* ThinkMe */ = {
+			isa = PBXGroup;
+			children = (
+				CBF67E891D5AA644005989C4 /* AppDelegate.swift */,
+				CBF67E8B1D5AA644005989C4 /* ViewController.swift */,
+				CBF67E8D1D5AA644005989C4 /* Main.storyboard */,
+				CBF67E931D5AA644005989C4 /* Assets.xcassets */,
+				CBF67E951D5AA644005989C4 /* LaunchScreen.storyboard */,
+				CBF67E981D5AA644005989C4 /* Info.plist */,
+				CBF67E901D5AA644005989C4 /* ThinkMe.xcdatamodeld */,
+			);
+			path = ThinkMe;
+			sourceTree = "<group>";
+		};
+		CBF67EA01D5AA645005989C4 /* ThinkMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF67EA11D5AA645005989C4 /* ThinkMeTests.swift */,
+				CBF67EA31D5AA645005989C4 /* Info.plist */,
+			);
+			path = ThinkMeTests;
+			sourceTree = "<group>";
+		};
+		CBF67EAB1D5AA645005989C4 /* ThinkMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF67EAC1D5AA645005989C4 /* ThinkMeUITests.swift */,
+				CBF67EAE1D5AA645005989C4 /* Info.plist */,
+			);
+			path = ThinkMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBF67E851D5AA644005989C4 /* ThinkMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF67EB11D5AA645005989C4 /* Build configuration list for PBXNativeTarget "ThinkMe" */;
+			buildPhases = (
+				CBF67E821D5AA644005989C4 /* Sources */,
+				CBF67E831D5AA644005989C4 /* Frameworks */,
+				CBF67E841D5AA644005989C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinkMe;
+			productName = ThinkMe;
+			productReference = CBF67E861D5AA644005989C4 /* ThinkMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBF67E9C1D5AA645005989C4 /* ThinkMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF67EB41D5AA645005989C4 /* Build configuration list for PBXNativeTarget "ThinkMeTests" */;
+			buildPhases = (
+				CBF67E991D5AA645005989C4 /* Sources */,
+				CBF67E9A1D5AA645005989C4 /* Frameworks */,
+				CBF67E9B1D5AA645005989C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF67E9F1D5AA645005989C4 /* PBXTargetDependency */,
+			);
+			name = ThinkMeTests;
+			productName = ThinkMeTests;
+			productReference = CBF67E9D1D5AA645005989C4 /* ThinkMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBF67EA71D5AA645005989C4 /* ThinkMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF67EB71D5AA645005989C4 /* Build configuration list for PBXNativeTarget "ThinkMeUITests" */;
+			buildPhases = (
+				CBF67EA41D5AA645005989C4 /* Sources */,
+				CBF67EA51D5AA645005989C4 /* Frameworks */,
+				CBF67EA61D5AA645005989C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF67EAA1D5AA645005989C4 /* PBXTargetDependency */,
+			);
+			name = ThinkMeUITests;
+			productName = ThinkMeUITests;
+			productReference = CBF67EA81D5AA645005989C4 /* ThinkMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBF67E7E1D5AA644005989C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = gsunis;
+				TargetAttributes = {
+					CBF67E851D5AA644005989C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W7V5DQXFK8;
+					};
+					CBF67E9C1D5AA645005989C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W7V5DQXFK8;
+						TestTargetID = CBF67E851D5AA644005989C4;
+					};
+					CBF67EA71D5AA645005989C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W7V5DQXFK8;
+						TestTargetID = CBF67E851D5AA644005989C4;
+					};
+				};
+			};
+			buildConfigurationList = CBF67E811D5AA644005989C4 /* Build configuration list for PBXProject "ThinkMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBF67E7D1D5AA644005989C4;
+			productRefGroup = CBF67E871D5AA644005989C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBF67E851D5AA644005989C4 /* ThinkMe */,
+				CBF67E9C1D5AA645005989C4 /* ThinkMeTests */,
+				CBF67EA71D5AA645005989C4 /* ThinkMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBF67E841D5AA644005989C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF67E971D5AA644005989C4 /* LaunchScreen.storyboard in Resources */,
+				CBF67E941D5AA644005989C4 /* Assets.xcassets in Resources */,
+				CBF67E8F1D5AA644005989C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF67E9B1D5AA645005989C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF67EA61D5AA645005989C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBF67E821D5AA644005989C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF67E8C1D5AA644005989C4 /* ViewController.swift in Sources */,
+				CBF67E8A1D5AA644005989C4 /* AppDelegate.swift in Sources */,
+				CBF67E921D5AA644005989C4 /* ThinkMe.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF67E991D5AA645005989C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF67EA21D5AA645005989C4 /* ThinkMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF67EA41D5AA645005989C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF67EAD1D5AA645005989C4 /* ThinkMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBF67E9F1D5AA645005989C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF67E851D5AA644005989C4 /* ThinkMe */;
+			targetProxy = CBF67E9E1D5AA645005989C4 /* PBXContainerItemProxy */;
+		};
+		CBF67EAA1D5AA645005989C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF67E851D5AA644005989C4 /* ThinkMe */;
+			targetProxy = CBF67EA91D5AA645005989C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBF67E8D1D5AA644005989C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF67E8E1D5AA644005989C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBF67E951D5AA644005989C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF67E961D5AA644005989C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBF67EAF1D5AA645005989C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBF67EB01D5AA645005989C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBF67EB21D5AA645005989C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThinkMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gsunis.ThinkMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBF67EB31D5AA645005989C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThinkMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gsunis.ThinkMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBF67EB51D5AA645005989C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThinkMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gsunis.ThinkMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinkMe.app/ThinkMe";
+			};
+			name = Debug;
+		};
+		CBF67EB61D5AA645005989C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThinkMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gsunis.ThinkMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinkMe.app/ThinkMe";
+			};
+			name = Release;
+		};
+		CBF67EB81D5AA645005989C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThinkMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gsunis.ThinkMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThinkMe;
+			};
+			name = Debug;
+		};
+		CBF67EB91D5AA645005989C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThinkMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gsunis.ThinkMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThinkMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBF67E811D5AA644005989C4 /* Build configuration list for PBXProject "ThinkMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF67EAF1D5AA645005989C4 /* Debug */,
+				CBF67EB01D5AA645005989C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF67EB11D5AA645005989C4 /* Build configuration list for PBXNativeTarget "ThinkMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF67EB21D5AA645005989C4 /* Debug */,
+				CBF67EB31D5AA645005989C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBF67EB41D5AA645005989C4 /* Build configuration list for PBXNativeTarget "ThinkMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF67EB51D5AA645005989C4 /* Debug */,
+				CBF67EB61D5AA645005989C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBF67EB71D5AA645005989C4 /* Build configuration list for PBXNativeTarget "ThinkMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF67EB81D5AA645005989C4 /* Debug */,
+				CBF67EB91D5AA645005989C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CBF67E901D5AA644005989C4 /* ThinkMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CBF67E911D5AA644005989C4 /* ThinkMe.xcdatamodel */,
+			);
+			currentVersion = CBF67E911D5AA644005989C4 /* ThinkMe.xcdatamodel */;
+			path = ThinkMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CBF67E7E1D5AA644005989C4 /* Project object */;
+}
