@@ -1,0 +1,21 @@
+=begin
+use_frameworks!
+=end
+
+=begin
+pod 'RongCloudIMKit'
+pod 'KxMenu'
+
+pod 'swiftScan'
+
+pod 'PopMenu'
+
+pod 'AJWValidator'
+pod 'AVOSCloud'
+=end
+
+
+=begin
+图片轮转库
+=end
+pod 'JSAnimatedImagesView'
