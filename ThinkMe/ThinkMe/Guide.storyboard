@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Guide Content View Controller-->
+        <scene sceneID="qj4-rZ-FrY">
+            <objects>
+                <viewController storyboardIdentifier="guideContentController" id="w0o-Kl-Uv5" customClass="GuideContentViewController" customModule="ThinkMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I17-EC-5Yz"/>
+                        <viewControllerLayoutGuide type="bottom" id="tfY-j7-HvP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dEE-ao-sW4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="打造自己的美食向导" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WtP-05-fOc">
+                                <rect key="frame" x="83.5" y="450" width="153" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwL-mS-B3u">
+                                <rect key="frame" x="250" y="518" width="60" height="30"/>
+                                <state key="normal" title="立即体验"/>
+                                <connections>
+                                    <action selector="guideDoneBtnTapped:" destination="w0o-Kl-Uv5" eventType="touchUpInside" id="ZTN-8e-rkM"/>
+                                </connections>
+                            </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="LL5-6T-ZJt">
+                                <rect key="frame" x="140.5" y="511" width="39" height="37"/>
+                                <color key="pageIndicatorTintColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="elq-XL-NMT">
+                                <rect key="frame" x="30" y="161" width="260" height="166"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="Oeu-YH-G3u"/>
+                                    <constraint firstAttribute="width" secondItem="elq-XL-NMT" secondAttribute="height" multiplier="130:83" id="rtm-G9-5MS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="私人定制" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gy-k7-LhH">
+                                <rect key="frame" x="131" y="65" width="68" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tfY-j7-HvP" firstAttribute="top" secondItem="LL5-6T-ZJt" secondAttribute="bottom" constant="20" id="AB3-5J-ZAH"/>
+                            <constraint firstItem="9gy-k7-LhH" firstAttribute="centerX" secondItem="dEE-ao-sW4" secondAttribute="centerX" id="BHQ-qc-ryB"/>
+                            <constraint firstItem="LL5-6T-ZJt" firstAttribute="centerX" secondItem="dEE-ao-sW4" secondAttribute="centerX" id="Hpc-Ew-MPR"/>
+                            <constraint firstItem="9gy-k7-LhH" firstAttribute="top" secondItem="I17-EC-5Yz" secondAttribute="bottom" constant="40" id="JNT-7L-jEt"/>
+                            <constraint firstItem="tfY-j7-HvP" firstAttribute="top" secondItem="bwL-mS-B3u" secondAttribute="bottom" constant="20" id="Noe-bZ-C7q"/>
+                            <constraint firstItem="elq-XL-NMT" firstAttribute="centerX" secondItem="dEE-ao-sW4" secondAttribute="centerX" id="PMB-3A-7ue"/>
+                            <constraint firstItem="WtP-05-fOc" firstAttribute="centerX" secondItem="dEE-ao-sW4" secondAttribute="centerX" id="lhi-LV-UDi"/>
+                            <constraint firstItem="LL5-6T-ZJt" firstAttribute="top" secondItem="WtP-05-fOc" secondAttribute="bottom" constant="40" id="mHQ-qp-8QG"/>
+                            <constraint firstAttribute="trailing" secondItem="bwL-mS-B3u" secondAttribute="trailing" constant="10" id="p47-DH-FAB"/>
+                            <constraint firstItem="elq-XL-NMT" firstAttribute="top" secondItem="9gy-k7-LhH" secondAttribute="bottom" constant="80" id="qix-Pn-3ve"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="guideDoneBth" destination="bwL-mS-B3u" id="e1X-qC-Gcx"/>
+                        <outlet property="guideFooter" destination="WtP-05-fOc" id="xOn-PN-YMq"/>
+                        <outlet property="guideHeader" destination="9gy-k7-LhH" id="Fso-t0-zWO"/>
+                        <outlet property="guideImageView" destination="elq-XL-NMT" id="0xS-8D-nww"/>
+                        <outlet property="guidePageCtrl" destination="LL5-6T-ZJt" id="p76-d7-t7n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S1D-vD-3se" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-143" y="366"/>
+        </scene>
+        <!--Guide Page View Controller-->
+        <scene sceneID="Lnr-h4-f9o">
+            <objects>
+                <pageViewController storyboardIdentifier="guidePageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="8c3-nA-PB9" customClass="GuidePageViewController" customModule="ThinkMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fwd-lI-JMa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234" y="366"/>
+        </scene>
+    </scenes>
+</document>
