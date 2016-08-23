@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="打造自己的美食向导" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WtP-05-fOc">
-                                <rect key="frame" x="83.5" y="450" width="153" height="21"/>
+                                <rect key="frame" x="83" y="430" width="153" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -28,11 +28,11 @@
                                 <rect key="frame" x="250" y="518" width="60" height="30"/>
                                 <state key="normal" title="立即体验"/>
                                 <connections>
-                                    <action selector="guideDoneBtnTapped:" destination="w0o-Kl-Uv5" eventType="touchUpInside" id="ZTN-8e-rkM"/>
+                                    <action selector="guideDoneTapped:" destination="w0o-Kl-Uv5" eventType="touchUpInside" id="kwI-rL-Hdh"/>
                                 </connections>
                             </button>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="LL5-6T-ZJt">
-                                <rect key="frame" x="140.5" y="511" width="39" height="37"/>
+                                <rect key="frame" x="0.0" y="491" width="320" height="37"/>
                                 <color key="pageIndicatorTintColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="currentPageIndicatorTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </pageControl>
@@ -52,7 +52,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="tfY-j7-HvP" firstAttribute="top" secondItem="LL5-6T-ZJt" secondAttribute="bottom" constant="20" id="AB3-5J-ZAH"/>
+                            <constraint firstItem="tfY-j7-HvP" firstAttribute="top" secondItem="LL5-6T-ZJt" secondAttribute="bottom" constant="40" id="AB3-5J-ZAH"/>
                             <constraint firstItem="9gy-k7-LhH" firstAttribute="centerX" secondItem="dEE-ao-sW4" secondAttribute="centerX" id="BHQ-qc-ryB"/>
                             <constraint firstItem="LL5-6T-ZJt" firstAttribute="centerX" secondItem="dEE-ao-sW4" secondAttribute="centerX" id="Hpc-Ew-MPR"/>
                             <constraint firstItem="9gy-k7-LhH" firstAttribute="top" secondItem="I17-EC-5Yz" secondAttribute="bottom" constant="40" id="JNT-7L-jEt"/>
@@ -61,6 +61,7 @@
                             <constraint firstItem="WtP-05-fOc" firstAttribute="centerX" secondItem="dEE-ao-sW4" secondAttribute="centerX" id="lhi-LV-UDi"/>
                             <constraint firstItem="LL5-6T-ZJt" firstAttribute="top" secondItem="WtP-05-fOc" secondAttribute="bottom" constant="40" id="mHQ-qp-8QG"/>
                             <constraint firstAttribute="trailing" secondItem="bwL-mS-B3u" secondAttribute="trailing" constant="10" id="p47-DH-FAB"/>
+                            <constraint firstItem="LL5-6T-ZJt" firstAttribute="width" secondItem="dEE-ao-sW4" secondAttribute="width" id="qCd-0L-bYm"/>
                             <constraint firstItem="elq-XL-NMT" firstAttribute="top" secondItem="9gy-k7-LhH" secondAttribute="bottom" constant="80" id="qix-Pn-3ve"/>
                         </constraints>
                     </view>

@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        //获取LeanCloud授权
+        //chetaofeng@163.com    54Ctf123./
+        AVOSCloud.setApplicationId("sztKJErSQwIwQ2vwzDmtSni5-gzGzoHsz", clientKey: "NVQ7CjH7cynp9KQsfWFVPz0R")
         
         return true
     }

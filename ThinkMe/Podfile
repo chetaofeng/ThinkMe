@@ -19,3 +19,9 @@ pod 'AVOSCloud'
 图片轮转库
 =end
 pod 'JSAnimatedImagesView'
+
+=begin
+云端数据存储库
+=end
+pod 'AVOSCloud'                     # 数据存储、短信、云引擎调用等基础服务模块
+pod 'AVOSCloudCrashReporting'       # 错误报告模块

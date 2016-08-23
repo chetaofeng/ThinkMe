@@ -20,17 +20,20 @@ class GuideContentViewController: UIViewController {
     var index         = 0
     var header        = ""
     var footer        = ""
-    var imageViewName = ""
+    var imageViewData = NSData()
+    var count         = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        guidePageCtrl.numberOfPages = count
+        
         guideHeader.text = header
         guideFooter.text = footer
-        guideImageView.image = UIImage(named: imageViewName)
+        guideImageView.image = UIImage(data: imageViewData)
         
         guidePageCtrl.currentPage = index
-        if index == 2 { //最后一页的时候，显示立即体验按钮
+        if index == count - 1 { //最后一页的时候，显示立即体验按钮
             guideDoneBth.hidden = false
         }else{
             guideDoneBth.hidden = true
@@ -41,7 +44,8 @@ class GuideContentViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    @IBAction func guideDoneBtnTapped(sender: AnyObject) {
+   
+    @IBAction func guideDoneTapped(sender: AnyObject) {
         let userDefaults = NSUserDefaults.standardUserDefaults()
         userDefaults.setBool(true, forKey: "hasShowedGuide")
         

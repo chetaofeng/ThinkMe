@@ -11,6 +11,9 @@
 		CBC3DE481D6B44D300645B0F /* Guide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC3DE471D6B44D300645B0F /* Guide.storyboard */; };
 		CBC3DE4A1D6B451800645B0F /* GuidePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC3DE491D6B451800645B0F /* GuidePageViewController.swift */; };
 		CBC3DE4C1D6B464100645B0F /* GuideContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC3DE4B1D6B464100645B0F /* GuideContentViewController.swift */; };
+		CBC3DE5F1D6BC95800645B0F /* GuideInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC3DE5E1D6BC95800645B0F /* GuideInfo.swift */; };
+		CBE3A7611D6D0C7C001C9F68 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE3A7601D6D0C7C001C9F68 /* Login.storyboard */; };
+		CBE3A7631D6D0C8D001C9F68 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3A7621D6D0C8D001C9F68 /* LoginViewController.swift */; };
 		CBF67E8A1D5AA644005989C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF67E891D5AA644005989C4 /* AppDelegate.swift */; };
 		CBF67E8C1D5AA644005989C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF67E8B1D5AA644005989C4 /* ViewController.swift */; };
 		CBF67E8F1D5AA644005989C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF67E8D1D5AA644005989C4 /* Main.storyboard */; };
@@ -44,6 +47,10 @@
 		CBC3DE471D6B44D300645B0F /* Guide.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Guide.storyboard; sourceTree = "<group>"; };
 		CBC3DE491D6B451800645B0F /* GuidePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuidePageViewController.swift; sourceTree = "<group>"; };
 		CBC3DE4B1D6B464100645B0F /* GuideContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideContentViewController.swift; sourceTree = "<group>"; };
+		CBC3DE591D6BC56D00645B0F /* ThinkMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThinkMe-Bridging-Header.h"; sourceTree = "<group>"; };
+		CBC3DE5E1D6BC95800645B0F /* GuideInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideInfo.swift; sourceTree = "<group>"; };
+		CBE3A7601D6D0C7C001C9F68 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		CBE3A7621D6D0C8D001C9F68 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CBF67E861D5AA644005989C4 /* ThinkMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF67E891D5AA644005989C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBF67E8B1D5AA644005989C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +109,7 @@
 				CBF67E951D5AA644005989C4 /* LaunchScreen.storyboard */,
 				CBF67E8D1D5AA644005989C4 /* Main.storyboard */,
 				CBC3DE471D6B44D300645B0F /* Guide.storyboard */,
+				CBE3A7601D6D0C7C001C9F68 /* Login.storyboard */,
 			);
 			name = StoryBoard;
 			sourceTree = "<group>";
@@ -112,8 +120,38 @@
 				CBF67E8B1D5AA644005989C4 /* ViewController.swift */,
 				CBC3DE491D6B451800645B0F /* GuidePageViewController.swift */,
 				CBC3DE4B1D6B464100645B0F /* GuideContentViewController.swift */,
+				CBE3A7621D6D0C8D001C9F68 /* LoginViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		CBC3DE551D6BBE1E00645B0F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		CBC3DE561D6BBE2200645B0F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		CBC3DE571D6BBE2900645B0F /* 3nd Party */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "3nd Party";
+			sourceTree = "<group>";
+		};
+		CBC3DE581D6BBFF800645B0F /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				CBC3DE5E1D6BC95800645B0F /* GuideInfo.swift */,
+			);
+			name = Playground;
 			sourceTree = "<group>";
 		};
 		CBF67E7D1D5AA644005989C4 = {
@@ -141,12 +179,17 @@
 		CBF67E881D5AA644005989C4 /* ThinkMe */ = {
 			isa = PBXGroup;
 			children = (
+				CBC3DE581D6BBFF800645B0F /* Playground */,
+				CBC3DE571D6BBE2900645B0F /* 3nd Party */,
+				CBC3DE561D6BBE2200645B0F /* Common */,
+				CBC3DE551D6BBE1E00645B0F /* Data */,
 				CBC3DE461D6B44B500645B0F /* Controller */,
 				CBC3DE451D6B44A700645B0F /* StoryBoard */,
 				CBF67E891D5AA644005989C4 /* AppDelegate.swift */,
 				CBF67E931D5AA644005989C4 /* Assets.xcassets */,
 				CBF67E981D5AA644005989C4 /* Info.plist */,
 				CBF67E901D5AA644005989C4 /* ThinkMe.xcdatamodeld */,
+				CBC3DE591D6BC56D00645B0F /* ThinkMe-Bridging-Header.h */,
 			);
 			path = ThinkMe;
 			sourceTree = "<group>";
@@ -290,6 +333,7 @@
 				CBF67E971D5AA644005989C4 /* LaunchScreen.storyboard in Resources */,
 				CBC3DE481D6B44D300645B0F /* Guide.storyboard in Resources */,
 				CBF67E941D5AA644005989C4 /* Assets.xcassets in Resources */,
+				CBE3A7611D6D0C7C001C9F68 /* Login.storyboard in Resources */,
 				CBF67E8F1D5AA644005989C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +407,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE3A7631D6D0C8D001C9F68 /* LoginViewController.swift in Sources */,
+				CBC3DE5F1D6BC95800645B0F /* GuideInfo.swift in Sources */,
 				CBF67E8C1D5AA644005989C4 /* ViewController.swift in Sources */,
 				CBF67E8A1D5AA644005989C4 /* AppDelegate.swift in Sources */,
 				CBC3DE4C1D6B464100645B0F /* GuideContentViewController.swift in Sources */,
@@ -512,10 +558,13 @@
 			baseConfigurationReference = CF69FDDE1E0A136294CD651F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ThinkMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gsunis.ThinkMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThinkMe/ThinkMe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -524,10 +573,12 @@
 			baseConfigurationReference = B2F3D8DFD2F26E2CF34ED5B3 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ThinkMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gsunis.ThinkMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThinkMe/ThinkMe-Bridging-Header.h";
 			};
 			name = Release;
 		};

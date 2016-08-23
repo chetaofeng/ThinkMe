@@ -1,12 +1,19 @@
 PODS:
+  - AVOSCloud (3.2.6)
+  - AVOSCloudCrashReporting (3.2.6):
+    - AVOSCloud
   - JSAnimatedImagesView (1.0.0):
     - MSWeakTimer (~> 1.0)
   - MSWeakTimer (1.1.0)
 
 DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudCrashReporting
   - JSAnimatedImagesView
 
 SPEC CHECKSUMS:
+  AVOSCloud: 08ba88573fca8559dfc658942b391c4568fabfc0
+  AVOSCloudCrashReporting: e5adfdfbfe683cb9097daa1723732b269e8b8d08
   JSAnimatedImagesView: d5c5f561280171ce13f1f08ba9834c47a1f27bfc
   MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
 

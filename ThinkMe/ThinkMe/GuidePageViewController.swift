@@ -10,15 +10,14 @@ import UIKit
 
 class GuidePageViewController: UIPageViewController,UIPageViewControllerDataSource{
 
-    var headers = ["私人定制","餐馆定位","美食发现"]
-    var images  = ["foodpin-intro-1","foodpin-intro-2","foodpin-intro-3"]
-    var footers = ["好店随时加，打造自己的美食向导","马上找到美味大餐的位置","发现其它吃货的美食珍藏"]
-
-    
+    var guideInfos:[AVObject] = []
     override func viewDidLoad() {
         super.viewDidLoad()
         
         dataSource = self
+        
+        let guideInfo = GuideInfo()
+        guideInfos = guideInfo.queryGuideInfoByType(1)
         //设置第一个页面
         if let startVC = viewControllerAtIndex(0) {
             setViewControllers([startVC], direction: .Forward, animated: true, completion: nil)
@@ -43,12 +42,14 @@ class GuidePageViewController: UIPageViewController,UIPageViewControllerDataSour
     }
     
     func viewControllerAtIndex(index:Int) -> GuideContentViewController? {
-        if case 0 ..< headers.count = index {
+        if case 0 ..< guideInfos.count = index {
             if let contentVC = storyboard?.instantiateViewControllerWithIdentifier("guideContentController") as? GuideContentViewController {
-                contentVC.footer        = footers[index]
-                contentVC.imageViewName = images[index]
-                contentVC.header        = headers[index]
+                let obj:AVObject = guideInfos[index]
+                contentVC.footer        = obj["title"] as! String
+                contentVC.imageViewData = (obj["image"] as! AVFile).getData()
+                contentVC.header        = obj["subTitle"] as! String
                 contentVC.index         = index
+                contentVC.count         = guideInfos.count
                 return contentVC
             }
         }

@@ -27,7 +27,11 @@ class ViewController: UIViewController {
                 presentViewController(guidePageVC, animated: true, completion: nil)
             }
         }
-
+    }
+    
+    @IBAction func d(sender: AnyObject) {
+        let guideInfo = GuideInfo()
+        guideInfo.addGuideInfo()
     }
     
 }
